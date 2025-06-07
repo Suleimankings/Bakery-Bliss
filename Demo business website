@@ -1,0 +1,97 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bakery Bliss</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Montserrat', sans-serif; line-height: 1.6; color: #333; }
+    header {
+      background: #ffafcc;
+      padding: 2rem;
+      text-align: center;
+      color: white;
+    }
+    header h1 { font-size: 2.5rem; }
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      background: #ffcad4;
+      padding: 1rem;
+    }
+    nav ul li {
+      margin: 0 1rem;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+    }
+    .feature {
+      background: #f8f8f8;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      flex: 1 1 300px;
+    }
+    footer {
+      text-align: center;
+      background: #333;
+      color: white;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bakery Bliss</h1>
+    <p>Fresh. Sweet. Handmade.</p>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>  <section id="about">
+    <h2>About Us</h2>
+    <p>We’re a family-owned bakery serving fresh handmade bread, cakes, and pastries. Located in the heart of the city, we bring you joy with every bite.</p>
+  </section>  <section id="services">
+    <h2>Our Specials</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>Artisan Bread</h3>
+        <p>Baked daily using traditional recipes and organic ingredients.</p>
+      </div>
+      <div class="feature">
+        <h3>Cakes & Pastries</h3>
+        <p>Perfect for birthdays, weddings, or your sweet cravings.</p>
+      </div>
+      <div class="feature">
+        <h3>Coffee & Treats</h3>
+        <p>Enjoy a cozy cup of coffee with a fresh croissant.</p>
+      </div>
+    </div>
+  </section>  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: hello@bakerybliss.com</p>
+    <p>Phone: +123 456 7890</p>
+  </section>  <footer>
+    <p>&copy; 2025 Bakery Bliss. All rights reserved.</p>
+  </footer>
+</body>
+</html>
